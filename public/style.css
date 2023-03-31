@@ -1,0 +1,32 @@
+.wrapper {
+    grid-template: 1fr minmax(70px, auto) / 1fr;
+}
+
+.by {
+    background: url('/src/img/selectra-small.svg') 50px 9px no-repeat;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 30px;
+}
+
+.container__grid {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.gradient {
+    background: linear-gradient(155.84deg, #2F66AB -15.74%, #5F9AE4 95.34%);
+}
+
+.circle__box {
+    max-height: 292.73px;
+    padding-top: 21.93%;
+}
+
+.elipse {
+    background: linear-gradient(181.36deg, rgba(47, 102, 171, 0.7) -408.14%, rgba(193, 215, 242, 0) 98.84%);
+}
