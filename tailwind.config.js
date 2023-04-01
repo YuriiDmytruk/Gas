@@ -46,6 +46,11 @@ module.exports = {
       colors: {
         main: "#333333",
       },
+      backgroundImage: {
+        selectra: "url('/src/img/selectra-small.svg')",
+        elipse_gradient: "linear-gradient(181.36deg, rgba(47, 102, 171, 0.7) -408.14%, rgba(193, 215, 242, 0) 98.84%)",
+        box_gradient: "linear-gradient(155.84deg, #2F66AB -15.74%, #5F9AE4 95.34%);",
+      },
     },
   },
   plugins: [],

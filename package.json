@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"tailwindcss build -i src/main.css -o public/tail-style.css --watch"
+    "build":"tailwindcss build -i src/main.css -o public/style.css --watch"
   },
   "author": "",
   "license": "ISC",

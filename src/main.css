@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container{
+    @apply max-w-[1400px] px-[30px]
+}
+
+.container__grid{
+    @apply grid justify-center justify-items-center items-center;
+}
+
+.buttons {
+    @apply h-[40px] w-[106px] rounded-[30px] flex justify-center items-center;
+}
+
+.header__text {
+    @apply text-[34px] leading-[94px] tracking-wide txt:text-[54px];
+}
+
+.plot__text {
+    @apply text-[14px]  leading-[24px];
+}
+
+.box__text{
+    @apply absolute text-[0.8vw] xl:text-[12px];
+}
+
+.circle{
+    @apply absolute w-[21.910928%] h-[100%] rounded-full border-2 border-solid border-gray-400;
+}
+
+.text_wrapper{
+    @apply flex w-full h-full justify-center items-center;
+}
+
+.circle_text{
+    @apply w-[69.999658%] text-center;
+}
